@@ -1,1 +1,36 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"biza-app-d2403","appId":"1:505056563532:android:294b2834854046b9983fe9","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"biza-app-d2403","configurations":{"android":"1:505056563532:android:294b2834854046b9983fe9","ios":"1:505056563532:ios:fac5b0286f226912983fe9"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "biza-app-d2403",
+          "appId": "1:505056563532:android:294b2834854046b9983fe9",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "biza-app-d2403",
+          "configurations": {
+            "android": "1:505056563532:android:294b2834854046b9983fe9",
+            "ios": "1:505056563532:ios:fac5b0286f226912983fe9"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
