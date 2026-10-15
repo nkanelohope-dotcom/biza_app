@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "505056563532",
+    "project_id": "biza-app-d2403",
+    "storage_bucket": "biza-app-d2403.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505056563532:android:294b2834854046b9983fe9",
+        "android_client_info": {
+          "package_name": "com.biza.biza_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKe2KVFUGHVicthsUS84ZYXf_Qnl2_W1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
